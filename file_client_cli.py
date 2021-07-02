@@ -3,7 +3,7 @@ import json
 import base64
 import logging
 
-server_address=('192.168.122.19',7777) #IP Alpine 3 (server)
+server_address=('192.168.122.129',7777) #IP Alpine 1 (server)
 
 def send_command(command_str=""):
     global server_address
@@ -65,7 +65,7 @@ def remote_get(filename=""):
 
 
 if __name__=='__main__':
-    server_address=('192.168.122.19',6666)
+    server_address=('192.168.122.129',6666)
     remote_list()
-    #remote_get('donalbebek.jpg')
+    remote_get('donalbebek.jpg')
 
