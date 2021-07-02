@@ -65,7 +65,7 @@ def remote_get(filename=""):
 
 
 if __name__=='__main__':
-    server_address=('192.168.122.129',6666)
+    server_address=('192.168.122.129',7777)
     remote_list()
     remote_get('donalbebek.jpg')
 
